@@ -1,0 +1,9 @@
+# OS meta files
+.DS_Store
+
+# Dependencies and `npm` stuffs
+/node_modules/
+/npm-debug.log
+
+# Coverage reports
+/coverage/
