@@ -96,6 +96,14 @@ gulp.task('test', function (cb) {
 });
 ```
 
+**`gulp test` in Terminal**:
+
+![gulp test in Terminal][repo-img-gulp-test]
+
+**HTML report**:
+
+![HTML report][repo-img-html-report]
+
 ### With [Grunt][url-grunt]
 
 **Gruntfile.js**:
@@ -166,6 +174,12 @@ When using with [Grunt][url-grunt]:
 directory, you have to make sure all `require` methods in your test files
 pointing to correct source file's locations._
 
+**`grunt test` in Terminal**:
+
+![grunt test in Terminal][repo-img-grunt-test]
+
+HTML report is also available when using with [Grunt][url-grunt].
+
 ### Command-line usage
 
 This feature is not available at the moment and will be implemented soon.
@@ -223,6 +237,9 @@ This module is released under [MIT license][repo-license].
 [repo-license]: https://github.com/meoguru/istanbul-traceur/blob/master/LICENSE
 [repo-editorconfig]: https://github.com/meoguru/istanbul-traceur/blob/master/.editorconfig
 [repo-jshintrc]: https://github.com/meoguru/istanbul-traceur/blob/master/.jshintrc
+[repo-img-gulp-test]: https://github.com/meoguru/istanbul-traceur/raw/master/assets/gulp-test.png
+[repo-img-grunt-test]: https://github.com/meoguru/istanbul-traceur/raw/master/assets/grunt-test.png
+[repo-img-html-report]: https://github.com/meoguru/istanbul-traceur/raw/master/assets/html-report.png
 
 [//]: # (Repository meta information)
 [meta-url-npm]: https://npmjs.org/package/istanbul-traceur

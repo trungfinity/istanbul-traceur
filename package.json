@@ -17,7 +17,7 @@
   "main": "lib/istanbul.js",
   "repository": "meoguru/istanbul-traceur",
   "scripts": {
-    "test": "node node_modules/.bin/gulp lint && node node_modules/.bin/gulp test",
+    "test": "node node_modules/.bin/gulp lint test",
     "coveralls": "node node_modules/.bin/gulp coveralls"
   },
   "dependencies": {
