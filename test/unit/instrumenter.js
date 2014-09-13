@@ -3,17 +3,18 @@
 var path = require('path');
 var fs = require('fs');
 
-var Instrumenter = requireLib('instrumenter');
+var istanbul = require('../..');
+var Instrumenter = istanbul.Instrumenter;
 
 describe('Instrumenter', function () {
   describe('#instrumentSync', function () {
     it('should instrument successfully', function () {
-      var instr = new Instrumenter();
+      var instrumenter = new Instrumenter();
 
       var filePath = path.resolve(__dirname + '/../resources/es6.js');
       var content = fs.readFileSync(filePath, 'utf8');
 
-      instr.instrumentSync(content);
+      instrumenter.instrumentSync(content);
     });
   });
 });
