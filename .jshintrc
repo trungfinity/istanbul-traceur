@@ -21,7 +21,6 @@
   "proto": true,
   "node": true,
   "predef": [
-    "requireLib",
     "describe",
     "it",
     "before",

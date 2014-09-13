@@ -20,10 +20,6 @@ gulp.task('lint', function () {
 });
 
 gulp.task('test', function (cb) {
-  global.requireLib = function (moduleShortPath) {
-    return require(__dirname + '/lib/' + moduleShortPath);
-  };
-
   global.expect = chai.expect;
 
   gulp.src([ 'lib/**/*.js' ])
