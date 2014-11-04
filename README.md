@@ -1,4 +1,4 @@
-# Istanbul with Traceur support
+# istanbul-traceur
 
 [![NPM version][meta-img-npm]][meta-url-npm]
 [![Build status][meta-img-travis]][meta-url-travis]
